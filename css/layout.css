@@ -207,8 +207,8 @@ ul#nav li.current a { color: #F06000; }
 }
 #about .profile-pic {
    position: relative;
-   width: 120px;
-   height: 120px;
+   width: 180px;
+   height: 180px;
    border-radius: 100%;
 }
 #about .contact-details { width: 41.66667%; }
@@ -325,6 +325,21 @@ ul#nav li.current a { color: #F06000; }
    border-radius: 3px 0 0 3px;
 }
 
+.fourty {
+  	width: 40%;
+  	-moz-animation: fourty 2s ease;
+  	-webkit-animation: fourty 2s ease;
+}
+.fourty-five {
+  	width: 45%;
+  	-moz-animation: fourty-five 2s ease;
+  	-webkit-animation: fourty-five 2s ease;
+}
+.fifty {
+  	width: 50%;
+  	-moz-animation: fifty 2s ease;
+  	-webkit-animation: fifty 2s ease;
+}
 .fifty-five {
   	width: 55%;
   	-moz-animation: fifty-five 2s ease;
@@ -361,6 +376,18 @@ ul#nav li.current a { color: #F06000; }
   -webkit-animation: eighty-five 2s ease;
 }
 
+@-moz-keyframes fourty {
+  0%   { width: 0px;  }
+  100% { width: 40%;  }
+}
+@-moz-keyframes fourty-five {
+  0%   { width: 0px;  }
+  100% { width: 45%;  }
+}
+@-moz-keyframes fifty {
+  0%   { width: 0px;  }
+  100% { width: 50%;  }
+}
 @-moz-keyframes fifty-five {
   0%   { width: 0px;  }
   100% { width: 55%;  }
@@ -390,6 +417,18 @@ ul#nav li.current a { color: #F06000; }
   100% { width: 85%;  }
 }
 
+@-webkit-keyframes fourty {
+  0%   { width: 0px;  }
+  100% { width: 40%;  }
+}
+@-webkit-keyframes fourty-five {
+  0%   { width: 0px;  }
+  100% { width: 45%;  }
+}
+@-webkit-keyframes fifty {
+  0%   { width: 0px;  }
+  100% { width: 50%;  }
+}
 @-webkit-keyframes fifty-five {
   0%   { width: 0px;  }
   100% { width: 55%;  }
@@ -643,7 +682,7 @@ call-to-action .button {
    color: #0D0D0D;
 }
 #call-to-action p span {
-	font-family: 'opensans-semibold', sans-serif; 
+	font-family: 'opensans-semibold', sans-serif;
 	color: #D8D8D8;
 }
 
@@ -667,7 +706,7 @@ call-to-action .button {
    padding-bottom: 66px;
 }
 #testimonials h1 {
-   font: 18px/24px 'opensans-bold', sans-serif;   
+   font: 18px/24px 'opensans-bold', sans-serif;
    text-transform: uppercase;
    letter-spacing: 3px;
    color: #fff;
